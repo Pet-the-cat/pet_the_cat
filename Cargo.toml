@@ -1,0 +1,11 @@
+[package]
+name = "pet_the_cat"
+version = "0.1.0"
+authors = ["Tom Olivier <contact.tom60@proton.me>"]
+license = "MIT"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
